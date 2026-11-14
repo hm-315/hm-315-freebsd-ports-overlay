@@ -1,0 +1,10 @@
+--- pyproject.toml.orig
++++ pyproject.toml
+@@ -87,7 +87,7 @@
+ nxpshe = "spsdk.apps.nxpshe:safe_main"
+
+ [build-system]
+-requires = ["setuptools_scm<10", "setuptools>=77", "wheel"]
++requires = ["setuptools_scm<11", "setuptools>=77", "wheel"]
+
+ [tool.black]

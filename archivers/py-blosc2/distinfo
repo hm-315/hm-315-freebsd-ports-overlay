@@ -1,0 +1,9 @@
+TIMESTAMP = 1791410833
+SHA256 (blosc2-4.12.0.tar.gz) = 5c6e5f8b80757ad49b1fe1b9692f991ae496a6566e3d735fffa2499da8038849
+SIZE (blosc2-4.12.0.tar.gz) = 7005557
+SHA256 (Blosc-miniexpr-f0b8c94771cd21d3c9029d6ccec204ab3a67584f_GH0.tar.gz) = b437e354416d234cfcc7e79fff1a61646103721f9a92e02ea5c27ac09b6cfc31
+SIZE (Blosc-miniexpr-f0b8c94771cd21d3c9029d6ccec204ab3a67584f_GH0.tar.gz) = 481423
+SHA256 (Blosc-minicc-695ad1e6b5c9a00875192ca1f3a9c4949dee4858_GH0.tar.gz) = 6eddc308b363c30bab5c5db21ab96985b1ef5b48613bca2511ebbbb8b5f96e90
+SIZE (Blosc-minicc-695ad1e6b5c9a00875192ca1f3a9c4949dee4858_GH0.tar.gz) = 1045388
+SHA256 (shibatch-sleef-7623d6cfa2712462880fa63a4d0f0b5f775d1a83_GH0.tar.gz) = 22affd077d1fa19f0052c39cfc14b8f2e1227da70dc7928e056bebca1d35ac53
+SIZE (shibatch-sleef-7623d6cfa2712462880fa63a4d0f0b5f775d1a83_GH0.tar.gz) = 1817461

@@ -1,0 +1,11 @@
+--- Makefile.am.orig	2026-09-27 11:41:16.931062000 +0900
++++ Makefile.am	2026-09-27 11:41:35.519957000 +0900
+@@ -30,7 +30,7 @@
+   SKIM_SUBDIR=skim
+ endif
+ 
+-SUBDIRS 		= docs icons po src tables # $(SKIM_SUBDIR)
++SUBDIRS 		= icons tables # $(SKIM_SUBDIR)
+ 
+ MAINTAINERCLEANFILES 	= Makefile.in aclocal.m4 configure $(AUX_DIST)
+ 

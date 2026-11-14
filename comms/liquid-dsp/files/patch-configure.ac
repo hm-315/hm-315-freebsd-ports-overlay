@@ -1,0 +1,11 @@
+--- configure.ac.orig
++++ configure.ac
+@@ -193,7 +193,7 @@
+     case $target_cpu in
+     powerpc*)
+         BUILD_ALTIVEC="1"
+-        ARCH_OPTION="-fno-common -faltivec";;
++        ARCH_OPTION="-fno-common -maltivec";;
+     armv1*|armv2*|armv3*|armv4*|armv5*|armv6*)
+         # assume neon instructions are NOT available
+         ARCH_OPTION="";;

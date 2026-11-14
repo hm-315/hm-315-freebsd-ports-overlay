@@ -1,0 +1,13 @@
+TIMESTAMP = 1791341795
+SHA256 (musescore-MuseScore-v4.7.5_GH0.tar.gz) = b9db52e139e925adfc56e3ab59244f44da4db7e5e133d5084c5da5dfc3dfb9d1
+SIZE (musescore-MuseScore-v4.7.5_GH0.tar.gz) = 167162086
+SHA256 (nlohmann-json-v3.12.0_GH0.tar.gz) = 4b92eb0c06d10683f7447ce9406cb97cd4b453be18d7279320f7b2f025c10187
+SIZE (nlohmann-json-v3.12.0_GH0.tar.gz) = 9678593
+SHA256 (w3c-mnx-d513cf7a28a84c803ed36e448b416cb49c3a22f9_GH0.tar.gz) = 730de77b1b01e4e00d414219022e6d9a41e75f6d9250e50e816f1e679b721e08
+SIZE (w3c-mnx-d513cf7a28a84c803ed36e448b416cb49c3a22f9_GH0.tar.gz) = 3526902
+SHA256 (pboettch-json-schema-validator-40af3ec39670e768fc3f01f935140af311d71024_GH0.tar.gz) = 36d7e99a73aa6076834736f0fb108fa8e232c4739aa4b3e2089fe96efb21fa8d
+SIZE (pboettch-json-schema-validator-40af3ec39670e768fc3f01f935140af311d71024_GH0.tar.gz) = 83126
+SHA256 (rpatters1-mnxdom-e7c947bf768caccf315426dcae0dfac02caf738b_GH0.tar.gz) = 4afeaa116fdf98518534e554886b94546406d144e240513347185c76a50621bb
+SIZE (rpatters1-mnxdom-e7c947bf768caccf315426dcae0dfac02caf738b_GH0.tar.gz) = 168611
+SHA256 (musescore-muse_framework-8d6707fb9cbc9b5b52f7b7649d0dd4976dd4e0ac_GH0.tar.gz) = 4d3ea80fb6e1cee513f53c2f9f665f57f5d4163d70d74f28158eb3c32c02a00c
+SIZE (musescore-muse_framework-8d6707fb9cbc9b5b52f7b7649d0dd4976dd4e0ac_GH0.tar.gz) = 29074080

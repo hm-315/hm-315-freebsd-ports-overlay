@@ -1,0 +1,11 @@
+--- Misc/python-config.sh.in.orig	2026-10-28 17:37:22.571869000 +0900
++++ Misc/python-config.sh.in	2026-10-28 17:37:22.572745000 +0900
+@@ -22,7 +22,7 @@
+ # Fails if the directory containing this script cannot be resolved.
+ installed_prefix ()
+ {
+-    RESULT=$(cd "$(dirname "$1")" && pwd -P) || return 1
++    RESULT=$(cd "$(dirname "$(realpath "$1")")" && pwd -P) || return 1
+     RESULT=$(dirname "$RESULT")
+     if which readlink >/dev/null 2>&1 ; then
+         if readlink -f "$RESULT" >/dev/null 2>&1; then

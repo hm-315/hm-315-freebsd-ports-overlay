@@ -1,0 +1,5 @@
+GEPA (Genetic-Pareto) is a framework for optimizing textual components of
+arbitrary systems, such as AI prompts or code snippets, against any evaluation
+metric. It uses LLM-based reflection on system trajectories to diagnose
+issues and propose targeted improvements, and evolves a Pareto front of
+candidates across a sample-efficient evolutionary search.

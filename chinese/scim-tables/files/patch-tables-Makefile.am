@@ -1,0 +1,9 @@
+--- tables/Makefile.am.orig	2026-09-27 11:41:16.337177000 +0900
++++ tables/Makefile.am	2026-09-27 11:41:35.520826000 +0900
+@@ -18,5 +18,5 @@
+ MAINTAINERCLEANFILES	= Makefile.in
+ CLEANFILES		= *.bak 
+ 
+-SUBDIRS			= additional am ar bn gr gu he hi ja kn ko ml mr ne pa ru ta te th vi zh ug uk
++SUBDIRS			= zh
+ 

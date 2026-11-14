@@ -1,0 +1,5 @@
+SciPy is an open source library of scientific tools for Python. It depends on
+NumPy, which provides convenient and fast N-dimensional array manipulation. The
+SciPy library is built to work with NumPy arrays, and provides many
+user-friendly and efficient numerical routines such as routines for numerical
+integration and optimization.

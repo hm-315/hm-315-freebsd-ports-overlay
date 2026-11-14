@@ -1,0 +1,11 @@
+--- tables/zh/Makefile.am.orig	2026-09-27 11:41:16.654806000 +0900
++++ tables/zh/Makefile.am	2026-09-27 11:41:35.521617000 +0900
+@@ -15,7 +15,7 @@
+ ## along with this program; if not, write to the Free Software
+ ## Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+ 
+-SCIM_MAKE_TABLE	= $(top_builddir)/src/scim-make-table
++SCIM_MAKE_TABLE	= scim-make-table
+ 
+ scim_tables_source = \
+ 		Array30.txt.in		\

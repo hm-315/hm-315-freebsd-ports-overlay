@@ -1,0 +1,6 @@
+*/work/
+*/work-*/
+*.log
+*.bak
+distfiles/
+.claude/

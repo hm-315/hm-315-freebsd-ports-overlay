@@ -1,0 +1,12 @@
+--- configure.ac.orig	2026-09-27 11:41:17.282478000 +0900
++++ configure.ac	2026-09-27 11:41:35.522448000 +0900
+@@ -82,9 +82,6 @@
+   CXXFLAGS="$CXXFLAGS -g"
+ fi
+ 
+-SCIM_ICONDIR=`$PKG_CONFIG --variable=icondir scim`
+-SCIM_MODULEDIR=`$PKG_CONFIG --variable=moduledir scim`
+-SCIM_DATADIR=`$PKG_CONFIG --variable=scimdatadir scim`
+ 
+ if test "x$SCIM_ICONDIR" = "x"; then
+   SCIM_ICONDIR=${datadir}/scim/icons

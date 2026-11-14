@@ -1,0 +1,5 @@
+DSPy is the framework for programming--rather than prompting--language
+models. It lets you iterate fast on building modular AI systems, such as
+classifiers, RAG pipelines, or agent loops, and provides algorithms for
+optimizing their prompts and weights, whether building simple classifiers,
+sophisticated RAG pipelines, or agent loops.

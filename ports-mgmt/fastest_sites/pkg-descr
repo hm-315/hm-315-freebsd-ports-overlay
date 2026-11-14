@@ -1,0 +1,15 @@
+fastest_sites walks every MASTER_SITE_* mirror list defined in
+Mk/bsd.sites.mk and measures the TCP handshake latency to each mirror,
+then prints the list sorted from fastest to slowest. The output is
+suitable for redirecting into a file (e.g. /usr/local/etc/ports_sites.conf)
+and including from /etc/make.conf, so the ports build system prefers the
+nearest/fastest mirrors when fetching distfiles.
+
+This is a locally reconstructed port: the official ports-mgmt/fastest_sites
+was removed from the FreeBSD ports tree on 2019-10-16 (unmaintained,
+unfetchable). This variant is a Python 3 port of the original author's
+script (originally Python 2 only, using the `asyncore` module which was
+removed in Python 3.12). The connection-timing logic has been rewritten
+using non-blocking sockets and select() instead.
+
+WWW: https://github.com/jordansissel/fastest_sites
