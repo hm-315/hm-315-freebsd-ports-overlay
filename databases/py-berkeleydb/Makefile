@@ -1,5 +1,5 @@
 PORTNAME=	berkeleydb
-DISTVERSION=	18.1.17
+DISTVERSION=	18.1.18
 CATEGORIES=	databases python
 MASTER_SITES=	PYPI
 PKGNAMEPREFIX=	${PYTHON_PKGNAMEPREFIX}
@@ -38,11 +38,10 @@ post-patch:
 		s|%%BDB_LIB_NAME%%|${BDB_LIB_NAME}|' \
 		${WRKSRC}/setup3.py
 	@${REINPLACE_CMD} 's|<db\.h>|<${BDB_INCLUDE_DIR}/db.h>|' ${WRKSRC}/src/Module/berkeleydb.h
-	@${REINPLACE_CMD} -e "s|^#define Py_LIMITED_API 0x030B0000|/* free-threaded build: no limited API */|" ${WRKSRC}/src/Module/berkeleydb.c
-	@${REINPLACE_CMD} -e "s|Py_LIMITED_API+0, PY_VERSION_HEX|0, PY_VERSION_HEX|" ${WRKSRC}/src/Module/berkeleydb.c
+	@${REINPLACE_CMD} 's|80.9|63|g' ${WRKSRC}/pyproject.toml
+	@${REINPLACE_CMD} -E -e "s|^#[[:space:]]*define Py_LIMITED_API 0x030[BC]0000|/* free-threaded build: no limited API */|" ${WRKSRC}/src/Module/berkeleydb.c
 	@${REINPLACE_CMD} -e "s|Py_LIMITED_API, PY_VERSION_HEX|0, PY_VERSION_HEX|" ${WRKSRC}/src/Module/berkeleydb.c
 	@${REINPLACE_CMD} -e "s|py_limited_api.: True|py_limited_api': False|" ${WRKSRC}/setup3.py
-	@${REINPLACE_CMD} 's|80.9|63|g' ${WRKSRC}/pyproject.toml
 
 post-install:
 	@${STRIP_CMD} ${STAGEDIR}${PYTHONPREFIX_SITELIBDIR}/${PORTNAME}/_${PORTNAME}*.so

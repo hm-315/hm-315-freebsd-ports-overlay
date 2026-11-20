@@ -1,5 +1,5 @@
 PORTNAME=	keychain
-DISTVERSION=	3.0.8
+DISTVERSION=	3.0.10
 CATEGORIES=	security
 
 MAINTAINER=	garga@FreeBSD.org
